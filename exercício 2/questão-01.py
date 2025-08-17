@@ -10,4 +10,5 @@ def fatorial(numero):
         return fatorial
 
 numero = int(input("Digite um número: "))
-print(fatorial(numero))
+
+print(f"O fatorial de {numero} é {fatorial(numero)}.")
